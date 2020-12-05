@@ -73,7 +73,15 @@
             </nav>
 
             <header id="header">
-                <div class="logo"><a href="{{ config.base_url }}">{{ config.extra.even_title }}</a></div>
+
+              <a href="{{ config.base_url }}" class="site-avatar">
+                <img src="{{ config.extra.even_profile_image }}" alt="Tejas Photo">
+              </a>
+              <div class="site-info">
+                <h1 class="site-name"><a href="./">{{ config.extra.even_profile_name }}</a></h1>
+                <p class="site-description">{{ config.extra.even_profile_info }}</p>
+              </div>
+
                 <nav class="menu">
                     <ul>
                         {% for item in config.extra.even_menu %}

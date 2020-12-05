@@ -18,12 +18,14 @@ function initMobile() {
     $mobileNav.classList.add("fixed-open");
     $mobileNavIcon.classList.add("icon-click");
     $mobileNavIcon.classList.remove("icon-out");
+    document.getElementById("header").classList.add("hide");
   });
 
   slideout.on("beforeclose", function () {
     $mobileNav.classList.remove("fixed-open");
     $mobileNavIcon.classList.add("icon-out");
     $mobileNavIcon.classList.remove("icon-click");
+    document.getElementById("header").classList.remove("hide");
   });
 
   document.getElementById("mobile-panel").addEventListener("touchend", function() {
