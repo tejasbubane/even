@@ -4,12 +4,14 @@
             <a href="{{ page.permalink }}">{{ page.title }}</a>
         </h1>
         <div class="post__meta">
-            <span class="post__time">{{ page.date | date(format="%B %-d, %Y") }}</span>
-            {% if page.category %}
-                <div class="post__category">
-                    <a href="{{ get_taxonomy_url(kind="category", name=page.category) }}">{{ page.category }}</a>
-                </div>
-            {% endif %}
+          <span class="post__time">{{ page.date | date(format="%B %-d, %Y") }}</span>
+          {% if page.taxonomies.tags %}
+          <span class="post-tags">
+            {% for tag in page.taxonomies.tags %}
+            <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>
+            {% endfor %}
+          </span>
+          {% endif %}
         </div>
     </header>
 {% endmacro title %}

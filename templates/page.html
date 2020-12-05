@@ -42,13 +42,6 @@
 
     <div class="post-footer">
         {% block page_footer %}
-            {% if page.taxonomies.tags %}
-                <div class="post-tags">
-                    {% for tag in page.taxonomies.tags %}
-                        <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>
-                    {% endfor %}
-                </div>
-            {% endif %}
             {% if page.earlier or page.later or page.lighter or page.heavier %}
                 <div class="post-nav">
                     {% if page.earlier %}
@@ -75,4 +68,3 @@
 </article>
 
 {% endblock content %}
-
