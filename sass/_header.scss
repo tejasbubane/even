@@ -26,6 +26,7 @@
         display: inline-block;
         margin-right: 5px;
         @include underline-from-center;
+        margin-right: 30px;
 
         a {
           color: #34495e;
