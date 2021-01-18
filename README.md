@@ -94,3 +94,13 @@ block-style automatic rendering is also supported, if enabled in the config:
 katex_enable = true
 katex_auto_render = true
 ```
+
+#### Support for google analytics
+
+Add following to project configuration to enable google analytics.
+
+```toml
+[extra]
+even_add_google_analytics = true
+even_gtag_tracking_id = "<tracking-id>"
+```
