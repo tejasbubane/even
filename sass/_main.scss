@@ -11,7 +11,7 @@ main {
   }
 
   .read-more a {
-    color: $main-colour;
+    color: $link-colour;
     font-family: $decoration-font-family;
     font-size: 0.9rem;
 
@@ -44,7 +44,7 @@ main {
     }
 
     p > a {
-      color: $main-colour;
+      color: $link-colour;
 
       &:hover {
         border-bottom: 1px solid $main-colour;
@@ -132,7 +132,7 @@ main {
         }
 
         &:hover {
-          color: $main-colour;
+          color: $link-colour;
         }
       }
     }
@@ -165,7 +165,7 @@ main {
 
     a {
       margin-right: 5px;
-      color: $main-colour;
+      color: $link-colour;
       word-break: break-all;
     }
   }
@@ -233,7 +233,7 @@ main {
       position: relative;
 
       &:hover {
-        color: $main-colour;
+        color: $link-colour;
       }
 
       .count {
@@ -266,18 +266,18 @@ main {
     }
 
     &__title a {
-      color: $main-colour;
+      color: $link-colour;
     }
   }
 }
 
 .about {
   p > a {
-    color: $main-colour;
+    color: $link-colour;
     word-break: break-all;
 
     &:hover {
-      border-bottom: 1px solid $main-colour;
+      border-bottom: 1px solid $link-colour;
     }
   }
 }
