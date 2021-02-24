@@ -19,16 +19,6 @@
     transform: translate3d(180px, 0px, 0px);
   }
 
-  .mobile-header-logo {
-    display: inline-block;
-    margin-right: 50px;
-
-    .logo {
-      font-size: 22px;
-      line-height: $mobile-navbar-height;
-    }
-  }
-
   .mobile-navbar-icon {
     cursor: pointer;
     color: $main-colour;
