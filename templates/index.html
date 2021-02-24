@@ -82,9 +82,11 @@
 
             <header id="header">
 
-              <a href="{{ config.base_url }}" class="site-avatar">
-                <img src="{{ config.extra.even_profile_image }}" alt="Tejas Photo">
-              </a>
+              {% if config.extra.even_profile_image %}
+                <a href="{{ config.base_url }}" class="site-avatar">
+                  <img src="{{ config.extra.even_profile_image }}" alt="Tejas Photo">
+                </a>
+              {% endif %}
               <div class="site-info">
                 <h1 class="site-name"><a href="{{ config.base_url }}">{{ config.extra.even_profile_name }}</a></h1>
                 <p class="site-description">{{ config.extra.even_profile_info }}</p>
