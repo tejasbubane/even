@@ -4,13 +4,15 @@
 <html lang="en">
     <head>
       {% if config.extra.even_add_google_analytics %}
-        <!--  Google analytics -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ config.extra.even_gtag_tracking_id }}"></script>
         <script>
-         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-         ga('create', '{{ config.extra.even_gtag_tracking_id }}', 'auto');
-         ga('send', 'pageview');
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '{{ config.extra.even_gtag_tracking_id }}');
         </script>
-        <script async src='https://www.google-analytics.com/analytics.js'></script>
       {% endif %}
 
       <meta name="description" content="{{ config.description }}">
