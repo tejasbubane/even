@@ -1,0 +1,20 @@
+.footer-content {
+  max-width: 740px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  padding-right: 30px;
+  padding-left: 30px;
+
+  a {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .footer-content {
+    max-width: 760px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
