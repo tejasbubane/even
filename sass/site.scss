@@ -1,6 +1,7 @@
 @use "normalize";
 @use "variables";
 @use "animations";
+@use "syntax-charcoal" as syntax;
 
 // TODO: allow to change that
 $main-colour: #c05b4d;
@@ -26,7 +27,6 @@ $decoration-font-family: Athelas, STHeiti, Microsoft Yahei, serif;
 }
 
 @import "animations";
-
 @import "base";
 @import "header";
 @import "main";
@@ -34,5 +34,5 @@ $decoration-font-family: Athelas, STHeiti, Microsoft Yahei, serif;
 @import "slideout";
 @import "toc";
 @import "footer";
-@use "syntax-charcoal" as syntax;
+
 @include syntax.light;

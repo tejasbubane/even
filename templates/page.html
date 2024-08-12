@@ -43,6 +43,8 @@
     <div class="post-footer">
         {% block page_footer %}
             {% if page.earlier or page.later or page.lighter or page.heavier %}
+            {% endif %}
+
             {% if page.taxonomies.tags %}
                 <div class="post-tags">
                     {% for tag in page.taxonomies.tags %}
