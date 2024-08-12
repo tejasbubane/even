@@ -1,3 +1,5 @@
+@use "variables";
+@use "animations";
 #header {
   padding: 20px 20px;
   display: block;
@@ -16,7 +18,8 @@
 
   .menu {
     float: right;
-    font-family: $decoration-font-family;
+    align-self: flex-start;
+    font-family: variables.$decoration-font-family;
 
     ul {
       display: inline-block;
@@ -25,8 +28,8 @@
       li {
         display: inline-block;
         margin-right: 5px;
-        @include underline-from-center;
         margin-right: 30px;
+        @include animations.underline-from-center;
 
         a {
           color: #34495e;
@@ -72,8 +75,7 @@
     font-size: 16px;
   }
 }
-
-@include max-screen() {
+@include variables.max-screen() {
   #header {
     .logo, .menu {
       display: none;

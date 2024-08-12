@@ -1,12 +1,6 @@
-@import "normalize";
-
-$theme-color-map: (
-  'Default': #c05b4d #f8f5ec,
-  'Mint Green': #16982B #f5f5f5,
-  'Cobalt Blue': #0047AB #f0f2f5,
-  'Hot Pink': #FF69B4 #f8f5f5,
-  'Dark Violet': #9932CC #f5f4fa
-);
+@use "normalize";
+@use "variables";
+@use "animations";
 
 // TODO: allow to change that
 $main-colour: #c05b4d;
@@ -18,11 +12,12 @@ $code-colour: #c7254e;
 $code-font-family: 'Fira Code', Consolas, Monaco, Menlo, Consolas, monospace !default;
 $decoration-font-family: Athelas, STHeiti, Microsoft Yahei, serif;
 
-@mixin min-screen($min-width: $body-width) {
-   @media screen and (min-width: $min-width) {
-     @content;
-   }
-}
+@use "base";
+@use "header";
+@use "main";
+@use "mobile";
+@use "slideout";
+@use "toc";
 
 @mixin max-screen($max-width: $body-width) {
    @media screen and (max-width: $max-width) {
@@ -39,3 +34,5 @@ $decoration-font-family: Athelas, STHeiti, Microsoft Yahei, serif;
 @import "slideout";
 @import "toc";
 @import "footer";
+@use "syntax-charcoal" as syntax;
+@include syntax.light;
