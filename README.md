@@ -1,7 +1,7 @@
 # Even
 Even is a clean, responsive theme based on the Hugo theme with the same name featuring categories, tags and pagination.
 
-![even screenshot](https://github.com/getzola/even/blob/master/screenshot.png?raw=true)
+![even screenshot](https://github.com/tejasbubane/even/blob/master/screenshot.png?raw=true)
 
 ## Contents
 
