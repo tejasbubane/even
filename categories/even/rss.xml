@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>even theme - Even</title>
+      <link>https://getzola.github.io/even/</link>
+      <description>A clean, responsive theme</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://getzola.github.io/even/categories/even/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Tenth post</title>
+          <pubDate>Tue, 10 Jul 2018 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://getzola.github.io/even/tenth-post/</link>
+          <guid>https://getzola.github.io/even/tenth-post/</guid>
+          <description xml:base="https://getzola.github.io/even/tenth-post/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+in culpa qui officia deserunt mollit anim id est laborum.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Eighth post</title>
+          <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://getzola.github.io/even/eigth-post/</link>
+          <guid>https://getzola.github.io/even/eigth-post/</guid>
+          <description xml:base="https://getzola.github.io/even/eigth-post/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+in culpa qui officia deserunt mollit anim id est laborum.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Fourth post</title>
+          <pubDate>Wed, 04 Jul 2018 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://getzola.github.io/even/fourth-post/</link>
+          <guid>https://getzola.github.io/even/fourth-post/</guid>
+          <description xml:base="https://getzola.github.io/even/fourth-post/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+in culpa qui officia deserunt mollit anim id est laborum.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Second post</title>
+          <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://getzola.github.io/even/second-post/</link>
+          <guid>https://getzola.github.io/even/second-post/</guid>
+          <description xml:base="https://getzola.github.io/even/second-post/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+in culpa qui officia deserunt mollit anim id est laborum.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
