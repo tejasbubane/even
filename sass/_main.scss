@@ -12,16 +12,6 @@ main {
     border-bottom: 1px solid #e6e6e6;
   }
 
-  .read__more {
-    font-size: 0.9rem;
-    color: variables.$main-colour;
-    font-family: variables.$decoration-font-family;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
   .about,
   .post {
     padding: 1.5rem 0;
