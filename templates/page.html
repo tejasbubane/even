@@ -4,6 +4,7 @@
 {% block title %}{{config.title}} - {{page.title}}{% endblock title %}
 
 {% block content %}
+<div class="content" id="mobile-panel">
 
 {% if page.toc %}
 <div class="post-toc" id="post-toc">
@@ -71,4 +72,5 @@
     {% endblock page_after_footer %}
 </article>
 
+</div>
 {% endblock content %}
