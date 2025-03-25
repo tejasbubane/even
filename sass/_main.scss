@@ -150,16 +150,38 @@ main {
     }
   }
 
+  .index-content {
+    .post__title {
+      font-size: 26px;
+    }
+
+    .post__meta {
+      font-size: 13px;
+    }
+
+    .post__summary {
+      font-size: 15px;
+
+      p {
+        margin-top: 10px;
+      }
+    }
+
+    .read-more {
+      font-size: 14px;
+    }
+  }
+
   .post-footer {
     margin-top: 20px;
     border-top: 1px solid #e6e6e6;
 
     &:after {
-        clear: both;
-        height: 0;
-        width: 100%;
-        content: '';
-        display: block;
+      clear: both;
+      height: 0;
+      width: 100%;
+      content: '';
+      display: block;
     }
   }
 
@@ -275,7 +297,7 @@ main {
 }
 
 .about {
-  p > a {
+ p > a {
     color: variables.$main-colour;
     word-break: break-all;
 
