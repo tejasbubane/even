@@ -151,6 +151,10 @@ main {
   }
 
   .index-content {
+    .post {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
     .post__title {
       font-size: 26px;
     }
@@ -161,9 +165,11 @@ main {
 
     .post__summary {
       font-size: 15px;
+      margin-bottom: 10px;
 
       p {
         margin-top: 10px;
+        margin-bottom: 4px;
       }
     }
 
