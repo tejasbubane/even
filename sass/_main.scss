@@ -12,7 +12,7 @@ main {
     border-bottom: 1px solid #e6e6e6;
   }
 
-  .read-more a {
+  .read__more {
     font-size: 0.9rem;
     color: variables.$main-colour;
     font-family: variables.$decoration-font-family;
@@ -152,8 +152,8 @@ main {
 
   .index-content {
     .post {
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding-top: 12px;
+      padding-bottom: 12px;
     }
     .post__title {
       font-size: 26px;
@@ -171,10 +171,6 @@ main {
         margin-top: 10px;
         margin-bottom: 4px;
       }
-    }
-
-    .read-more {
-      font-size: 14px;
     }
   }
 
