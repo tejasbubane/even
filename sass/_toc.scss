@@ -3,7 +3,7 @@ $post-toc-margin-left: variables.$body-width - 15px !default;
 $toc-max-sreen-width: 2 * 200px + $post-toc-margin-left !default;
 
 .post-toc {
-  position: absolute;
+  position: absolute !important;
   width: 200px;
   margin-left: $post-toc-margin-left;
   padding: 10px;
