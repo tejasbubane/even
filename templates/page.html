@@ -1,5 +1,4 @@
 {% extends "index.html" %}
-{% import "post_macros.html" as post_macros %}
 
 {% block title %}{{config.title}} - {{page.title}}{% endblock title %}
 
@@ -33,7 +32,7 @@
 {% endif %}
 
 <article class="post">
-    {{ post_macros::title(page=page) }}
+    {{ <even.post_title page={page} /> }}
     <div class="post-content">
       {{ page.content | safe }}
     </div>

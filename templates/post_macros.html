@@ -1,4 +1,4 @@
-{% macro title(page) %}
+{% component even.post_title(page) %}
     <header class="post__header">
         <h1 class="post__title">
             <a href="{{ page.permalink }}">{{ page.title }}</a>
@@ -14,4 +14,4 @@
           {% endif %}
         </div>
     </header>
-{% endmacro title %}
+{% endcomponent even.post_title %}
